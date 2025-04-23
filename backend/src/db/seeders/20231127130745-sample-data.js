@@ -109,7 +109,7 @@ const LeadsData = [
   {
     name: 'Initech',
 
-    status: 'new',
+    status: 'lost',
 
     // type code here for "relation_one" field
 
@@ -119,7 +119,7 @@ const LeadsData = [
   {
     name: 'Umbrella Corp',
 
-    status: 'contacted',
+    status: 'lost',
 
     // type code here for "relation_one" field
 

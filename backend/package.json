@@ -1,6 +1,6 @@
 {
-  "name": "test322",
-  "description": "test322 - template backend",
+  "name": "321",
+  "description": "321 - template backend",
   "scripts": {
     "start": "npm run db:migrate && npm run db:seed && npm run watch",
     "db:migrate": "sequelize-cli db:migrate",

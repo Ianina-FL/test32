@@ -27,7 +27,7 @@ import ContactFormSection from '../components/WebPageComponents/ContactFormCompo
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'test322';
+  const projectName = '321';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -125,10 +125,10 @@ export default function WebSite() {
           content={`Discover our CRM app tailored for the law industry, designed to connect departments, streamline operations, and enhance client interactions. Explore features, testimonials, and get in touch today.`}
         />
       </Head>
-      <WebSiteHeader projectName={'test322'} pages={pages} />
+      <WebSiteHeader projectName={'321'} pages={pages} />
       <main className={`flex-grow    bg-white  rounded-none  `}>
         <HeroSection
-          projectName={'test322'}
+          projectName={'321'}
           image={['Law professionals collaborating efficiently']}
           mainText={`Revolutionize Your Law Firm's CRM`}
           subTitle={`Experience seamless integration with ${projectName}, the CRM tailored for the law industry. Connect departments, streamline operations, and enhance client interactions effortlessly.`}
@@ -137,7 +137,7 @@ export default function WebSite() {
         />
 
         <FeaturesSection
-          projectName={'test322'}
+          projectName={'321'}
           image={['Dashboard showcasing CRM features']}
           withBg={1}
           features={features_points}
@@ -147,7 +147,7 @@ export default function WebSite() {
         />
 
         <AboutUsSection
-          projectName={'test322'}
+          projectName={'321'}
           image={['Team collaborating in modern office']}
           mainText={`Empowering Law Firms with ${projectName}`}
           subTitle={`At ${projectName}, we are dedicated to revolutionizing the legal industry by providing a comprehensive CRM solution. Our mission is to streamline operations, enhance client interactions, and drive success for law firms worldwide.`}
@@ -156,21 +156,21 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'test322'}
+          projectName={'321'}
           design={TestimonialsDesigns.MULTI_CARD_DISPLAY || ''}
           testimonials={testimonials}
           mainText={`What Our Clients Say About ${projectName} `}
         />
 
         <ContactFormSection
-          projectName={'test322'}
+          projectName={'321'}
           design={ContactFormDesigns.WITH_IMAGE || ''}
           image={['Person typing on a laptop']}
           mainText={`Get in Touch with ${projectName} `}
           subTitle={`Reach out to us anytime for inquiries or support. Our team at ${projectName} is here to assist you promptly and efficiently.`}
         />
       </main>
-      <WebSiteFooter projectName={'test322'} pages={pages} />
+      <WebSiteFooter projectName={'321'} pages={pages} />
     </div>
   );
 }

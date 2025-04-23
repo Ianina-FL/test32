@@ -21,7 +21,7 @@ import TestimonialsSection from '../../components/WebPageComponents/Testimonials
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'test322';
+  const projectName = '321';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -98,10 +98,10 @@ export default function WebSite() {
           content={`Learn more about our mission, values, and the team behind our innovative CRM solutions for the law industry. Explore client testimonials and our journey to revolutionize legal operations.`}
         />
       </Head>
-      <WebSiteHeader projectName={'test322'} pages={pages} />
+      <WebSiteHeader projectName={'321'} pages={pages} />
       <main className={`flex-grow    bg-white  rounded-none  `}>
         <HeroSection
-          projectName={'test322'}
+          projectName={'321'}
           image={['Team brainstorming in modern office']}
           mainText={`Meet the Visionaries Behind ${projectName}`}
           subTitle={`Discover the passion and dedication driving ${projectName}. Our mission is to empower law firms with cutting-edge CRM solutions that streamline operations and enhance client relationships.`}
@@ -110,7 +110,7 @@ export default function WebSite() {
         />
 
         <AboutUsSection
-          projectName={'test322'}
+          projectName={'321'}
           image={['Team members discussing project goals']}
           mainText={`Our Journey with ${projectName}`}
           subTitle={`At ${projectName}, we are committed to transforming the legal industry with innovative CRM solutions. Our team is dedicated to providing tools that enhance efficiency and client satisfaction.`}
@@ -119,13 +119,13 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'test322'}
+          projectName={'321'}
           design={TestimonialsDesigns.HORIZONTAL_CAROUSEL_DIVERSITY || ''}
           testimonials={testimonials}
           mainText={`Hear from Our Satisfied Clients `}
         />
       </main>
-      <WebSiteFooter projectName={'test322'} pages={pages} />
+      <WebSiteFooter projectName={'321'} pages={pages} />
     </div>
   );
 }
