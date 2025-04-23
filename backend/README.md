@@ -1,4 +1,4 @@
-#test32 - template backend,
+#test322 - template backend,
 
 #### Run App on local machine:
 
@@ -38,10 +38,10 @@
 
 - Type this command to creating a new database.
 
-  - `postgres=> CREATE DATABASE db_test32;`
+  - `postgres=> CREATE DATABASE db_test322;`
 
 - Then give that new user privileges to the new database then quit the `psql`.
-  - `postgres=> GRANT ALL PRIVILEGES ON DATABASE db_test32 TO admin;`
+  - `postgres=> GRANT ALL PRIVILEGES ON DATABASE db_test322 TO admin;`
   - `postgres=> \q`
 
 ---

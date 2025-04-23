@@ -21,7 +21,7 @@ import TestimonialsSection from '../../components/WebPageComponents/Testimonials
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'test32';
+  const projectName = 'test322';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -137,10 +137,10 @@ export default function WebSite() {
           content={`Explore the comprehensive services offered by our CRM solution tailored for the law industry. Discover how we can streamline your operations and improve client interactions.`}
         />
       </Head>
-      <WebSiteHeader projectName={'test32'} pages={pages} />
+      <WebSiteHeader projectName={'test322'} pages={pages} />
       <main className={`flex-grow    bg-white  rounded-none  `}>
         <HeroSection
-          projectName={'test32'}
+          projectName={'test322'}
           image={['Law firm team in discussion']}
           mainText={`Transform Your Legal Services with ${projectName}`}
           subTitle={`Discover the range of services offered by ${projectName} to streamline your legal operations. Enhance efficiency, improve client interactions, and drive success with our tailored CRM solutions.`}
@@ -149,9 +149,9 @@ export default function WebSite() {
         />
 
         <FeaturesSection
-          projectName={'test32'}
+          projectName={'test322'}
           image={['Dashboard with CRM features']}
-          withBg={1}
+          withBg={0}
           features={features_points}
           mainText={`Explore ${projectName} Features for Legal Excellence`}
           subTitle={`Uncover the powerful features of ${projectName} designed to elevate your legal practice. Streamline operations and enhance client satisfaction with our innovative solutions.`}
@@ -159,13 +159,13 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'test32'}
+          projectName={'test322'}
           design={TestimonialsDesigns.MULTI_CARD_DISPLAY || ''}
           testimonials={testimonials}
           mainText={`Client Success Stories with ${projectName} `}
         />
       </main>
-      <WebSiteFooter projectName={'test32'} pages={pages} />
+      <WebSiteFooter projectName={'test322'} pages={pages} />
     </div>
   );
 }
